@@ -1,1 +1,4 @@
 # itds362-tdd
+
+# reflection
+Running the test before fixing anything helped me catch stuff I would've just assumed was fine, since the error wasn't always what I thought it'd be. The faking It also ended up being more useful than I expected since faking a method's return value first let me check the test was actually working before I worried about the real logic. Doing everything in small steps also meant that when I messed something up, I noticed right away because of a clear error, instead of building more on something wrong and having to try to find what went wrong later when i have lots of code.
