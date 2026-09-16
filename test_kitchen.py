@@ -9,14 +9,6 @@
 
 from kitchen import Quantity, grams, ounces, Converter
 
-def test_multiplication():
-    flour = grams(200)
-    assert flour.times(3) == grams(600)
-
-def test_multiplication_by_two():
-    flour = grams(200)
-    assert flour.times(2) == grams(400)
-    
 def test_multiplication_returns_a_new_quantity():
     flour = grams(200)
     assert flour.times(3) == grams(600)
